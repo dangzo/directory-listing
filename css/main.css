@@ -1,0 +1,103 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #FEFEFE;
+  font-family: verdana, helvetica;
+  font-size: 14px;
+  color: #555555;
+}
+
+body h1 {
+  font-size: 20px;
+  color: #000000;
+  margin-left: 40px;
+  margin-top: 40px;  
+}
+
+a {
+  color: #55B !important;
+}
+
+a:hover {
+  color: #00B !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 25px 0 25px 50px;
+}
+
+ul li {
+  line-height: 21px;
+}
+
+ul li.directory img {
+  margin-right: 11px;
+  display: inline;
+  content: url('../images/folder-icon.png');
+  height: 2em;
+  width: 2em;
+}
+
+ul li.file img {
+  margin-right: 11px;
+  display: inline;
+  content: url('../images/file-icon.png');
+  height: 2em;
+  width: 2em;
+}
+
+ul li.file.html img {
+  content: url('../images/html.png');
+
+}
+
+ul li.file.php img {
+  content: url('../images/php.png');
+
+}
+
+ul li.file.doc img {
+  content: url('../images/doc.png');
+}
+
+ul li.file.xls img {
+  content: url('../images/xls.png');
+}
+
+ul li.file.js img {
+  content: url('../images/javascript.png');
+}
+
+ul li.file.png img {
+  content: url('../images/png.png');
+}
+
+ul li.file.jpg img {
+  content: url('../images/jpg.png');
+}
+
+ul li.file.txt img {
+  content: url('../images/txt.png');
+}
+
+ul li.file.zip img {
+  content: url('../images/zip.png');
+}
+
+ul li.file.css img {
+  content: url('../images/css.png');
+}
+
+ul li.file.pdf img {
+  content: url('../images/pdf.png');
+}
+
+.container {
+  border-right: dotted 1px #444;
+  border-left: dotted 1px #444;
+  height: 100%;
+}
