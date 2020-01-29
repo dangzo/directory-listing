@@ -5,12 +5,12 @@ on:
     types: [closed]
 
 jobs:
-  build:
+  remove-labels:
     runs-on: ubuntu-latest
 
     steps:
     - name: Simple Issue Labeler
-      uses: andymckay/labeler@1.0.2
+      uses: dangzo/labeler@1.0.2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         remove-labels: "Need review, Status: in progress, Status: Needs rebase, Status: Need help, Status: Blocked"
