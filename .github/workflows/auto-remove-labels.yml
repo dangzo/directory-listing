@@ -13,7 +13,7 @@ jobs:
       uses: dangzo/labeler@1.0.2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        remove-labels: "Need review, Status: in progress, Status: Needs rebase, Status: Need help, Status: Blocked"
+        remove-labels: "need-review, Status:-in-progress, Status:-Needs-rebase, Status:-Need-help, Status:-Blocked"
         ignore-if-assigned: false
 
 
